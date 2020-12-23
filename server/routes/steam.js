@@ -1,6 +1,6 @@
-const apiKey = process.env.API_KEY
 const express = require('express')
 const router = express.Router()
+const apiKey = process.env.API_KEY
 
 const db = require('../db/steam')
 
